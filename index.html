@@ -1,552 +1,527 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Digitalplay</title>
-    <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Digitalplay</title>
+	<meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/ahmed.png"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Muhammad Ahmed</span>
-        </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-	    <li class="header__link-wrapper">
-              <a href="./index.html#certificate" class="header__link"> Certificates </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
 
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+		rel="stylesheet" />
+</head>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
+<body>
+	<header class="header">
+		<div class="header__content">
+			<div class="header__logo-container">
+				<div class="header__logo-img-cont">
+					<img src="./assets/png/ahmed.png" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+				</div>
+				<span class="header__logo-sub">Muhammad Ahmed</span>
+			</div>
+			<div class="header__main">
+				<ul class="header__links">
+					<li class="header__link-wrapper">
+						<a href="./index.html" class="header__link"> Home </a>
+					</li>
+					<li class="header__link-wrapper">
+						<a href="./index.html#about" class="header__link">About </a>
+					</li>
+				<!--	<li class="header__link-wrapper">
+						<a href="./index.html#certificate" class="header__link"> Certificates </a>
+					</li> -->
+					<li class="header__link-wrapper">
+						<a href="./index.html#" class="header__link"> Services </a>
+					</li>
+					<li class="header__link-wrapper">
+						<a href="./index.html#projects" class="header__link">
+							Portfolio
+						</a>
+					</li>
+					<li class="header__link-wrapper">
+						<a href="./index.html#contact" class="header__link"> Contact </a>
+					</li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
+				</ul>
+				<div class="header__main-ham-menu-cont">
+					<img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+					<img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+						class="header__main-ham-menu-close d-none" />
+				</div>
+			</div>
+		</div>
+		<div class="header__sm-menu">
+			<div class="header__sm-menu-content">
+				<ul class="header__sm-menu-links">
+					<li class="header__sm-menu-link">
+						<a href="./index.html"> Home </a>
+					</li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Struggling online? Elevate your Brand with Proven Marketing Strategies</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            I'm Muhammad Ahmed, a Digital Marketing Specialist with over 6 years of experience. Dive into my portfolio to see how I've helped businesses like yours thrive online.
-         
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="#projects" class="btn btn--bg">Projects</a>
-        </div>
-      </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="https://www.linkedin.com/in/muhammadahmed786/" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://github.com/MuhammadAhmed-0" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="https://www.instagram.com/digitalplay786/"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
+					<li class="header__sm-menu-link">
+						<a href="./index.html#about"> About </a>
+					</li>
 
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Discover My Digital Journey!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hey! It's me <strong>Muhammad Ahmed</strong>, a <strong>Digital Marketing</strong> Specialist with 6 years of experience in the field. I have gained valuable expertise through my extensive involvement in various projects, collaborating with remote teams, and providing consultancy services to startups. 
-              
-              </p>
+					<li class="header__sm-menu-link">
+						<a href="./index.html#projects"> Projects </a>
+					</li>
 
-              <p class="about__content-details-para">
-		I'm a bit of a digital marketing enthusiast. Over the years, I've dived into countless campaigns across various industries and niches. Whether it's social media, SEO, or content marketing, I've got you covered. <strong>Don't hesitate to reach out</strong> and let's chat about taking your brand to the next level!
-              </p>
-            </div>
-            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Get Started Today</a
-            >
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">Search Engine Optimization (SEO)</div>
-	      <div class="skills__skill">Keyword Research</div>
-              <div class="skills__skill">Local Business SEO</div>
-              <div class="skills__skill">Pay-Per-Click Advertising (PPC)</div>
-              <div class="skills__skill">Email Marketing</div>
-              <div class="skills__skill">Facebook Ads For Brands and E-commerce</div>            
-              <div class="skills__skill">Google Ads</div>
-              <div class="skills__skill">SEO Consultation</div>
-              <div class="skills__skill">Landing Page</div>
-              <div class="skills__skill">Funnel Optimization</div>
-              <div class="skills__skill">Google Analytics</div>
-              <div class="skills__skill">Project Management</div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+					<li class="header__sm-menu-link">
+						<a href="./index.html#contact"> Contact </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="home-hero">
+		<div class="home-hero__content">
+			<h1 class="heading-primary">Struggling online? Elevate your Brand with Proven Marketing Strategies</h1>
+			<div class="home-hero__info">
+				<p class="text-primary">
+					I'm Muhammad Ahmed, a Digital Marketing Specialist with over 6 years of experience. Dive into my
+					portfolio to see how I've helped businesses like yours thrive online.
 
-<!-- THis Section is for certification-->
+				</p>
+			</div>
+			<div class="home-hero__cta">
+				<a href="#projects" class="btn btn--bg">Projects</a>
+			</div>
+		</div>
+		<div class="home-hero__socials">
+			<div class="home-hero__social">
+				<a href="https://www.linkedin.com/in/muhammadahmed786/" class="home-hero__social-icon-link">
+					<img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+				</a>
+			</div>
+			<div class="home-hero__social">
+				<a href="https://github.com/MuhammadAhmed-0" class="home-hero__social-icon-link">
+					<img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+				</a>
+			</div>
+			<div class="home-hero__social">
+				<a href="https://www.instagram.com/digitalplay786/"
+					class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+					<img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
+				</a>
+			</div>
+		</div>
+		<div class="home-hero__mouse-scroll-cont">
+			<div class="mouse"></div>
+		</div>
+	</section>
+	<section id="about" class="about sec-pad">
+		<div class="main-container">
+			<h2 class="heading heading-sec heading-sec__mb-med">
+				<span class="heading-sec__main">About Me</span>
+				<span class="heading-sec__sub">
 
-    <section id="certificate" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">My Certifications</span>
-          <span class="heading-sec__sub">
-		I've got the certificates to prove it! Check out my collection of certifications. It's not just about what I say – it's about what I can do for you.
-          </span>
-        </h2>
+				</span>
+			</h2>
+			<div class="about__content">
+				<div class="about__content-main">
+					<h3 class="about__content-title">Discover My Digital Journey!</h3>
+					<div class="about__content-details">
+						<p class="about__content-details-para">
+							Hey! It's me <strong>Muhammad Ahmed</strong>, a <strong>Digital Marketing</strong>
+							Specialist with 6 years of experience in the field. I have gained valuable expertise through
+							my extensive involvement in various projects, collaborating with remote teams, and providing
+							consultancy services to startups.
 
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/Digital marketing certificate-1.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Digital Marketing Certificate By Google Digital Garage</h3>
-	      <p class="projects__row-content-desc">Certified by Google Digital Garage in Digital Marketing, armed with expertise to excel in the digital realm.</p>
-  
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/Foundation of Digital Marketing and Ecommerce By Google.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Foundation of Digital Marketing and Ecommerce By Google</h3>
-              <p class="projects__row-content-desc">Acquired essential skills through Google's Foundation of Digital Marketing and Ecommerce program, setting the stage for thriving in the digital landscape.</p>
-  
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/Digital_Marketing_Strategy.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Digital Marketing Strategy By Simplilearn</h3>
-            <p class="projects__row-content-desc">Got my Digital Marketing Strategy certification from Simplilearn, mastering top-notch online strategies. </p>
-            </div>
-          </div>
+						</p>
 
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/oxford_digital_marketing_short_course-1.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Oxford Digital Marketing Certificate</h3>
-              <p class="projects__row-content-desc">
-               Earned the prestigious Oxford Digital Marketing Certificate, solidifying expertise in cutting-edge digital strategies and tactics.
-              </p>
-            </div>
-          </div>
+						<p class="about__content-details-para">
+							I'm a bit of a digital marketing enthusiast. Over the years, I've dived into countless
+							campaigns across various industries and niches. Whether it's social media, SEO, or content
+							marketing, I've got you covered. <strong>Don't hesitate to reach out</strong> and let's chat
+							about taking your brand to the next level!
+						</p>
+					</div>
+					<a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Get Started Today</a>
+				</div>
+				<div class="about__content-skills">
+					<h3 class="about__content-title">My Skills</h3>
+					<div class="skills">
+						<div class="skills__skill">Search Engine Optimization (SEO)</div>
+						<div class="skills__skill">Keyword Research</div>
+						<div class="skills__skill">Local Business SEO</div>
+						<div class="skills__skill">Pay-Per-Click Advertising (PPC)</div>
+						<div class="skills__skill">Email Marketing</div>
+						<div class="skills__skill">Facebook Ads For Brands and E-commerce</div>
+						<div class="skills__skill">Google Ads</div>
+						<div class="skills__skill">SEO Consultation</div>
+						<div class="skills__skill">Landing Page</div>
+						<div class="skills__skill">Funnel Optimization</div>
+						<div class="skills__skill">Google Analytics</div>
+						<div class="skills__skill">Project Management</div>
 
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/Interect with customer, Social media Certificate-1.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Interect with customer, Social media Certificate By Google</h3>
-              <p class="projects__row-content-desc">
- 		Certified in customer interaction and social media strategies by Google, ready to boost online engagement.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- THis Section is for certification-->
+
+	<section id="certificate" class="projects sec-pad">
+		<div class="main-container">
+			<h2 class="heading heading-sec heading-sec__mb-bg">
+				<span class="heading-sec__main">My Certifications</span>
+				<span class="heading-sec__sub">
+					I've got the certificates to prove it! Check out my collection of certifications. It's not just
+					about what I say – it's about what I can do for you.
+				</span>
+			</h2>
+
+			<div class="projects__content">
+				<div class="swiper certificatesSlider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/png/Digital marketing certificate-1.png" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">Digital Marketing Certificate By Google Digital Garage
+									</h3>
+									<p class="projects__row-content-desc">Certified by Google Digital Garage in Digital Marketing,
+										armed with expertise to excel in the digital realm.</p>
+			
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/png/Foundation of Digital Marketing and Ecommerce By Google.png"
+										alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">Foundation of Digital Marketing and Ecommerce By Google
+									</h3>
+									<p class="projects__row-content-desc">Acquired essential skills through Google's Foundation of
+										Digital Marketing and Ecommerce program, setting the stage for thriving in the digital
+										landscape.</p>
+			
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/png/Digital_Marketing_Strategy.png" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">Digital Marketing Strategy By Simplilearn</h3>
+									<p class="projects__row-content-desc">Got my Digital Marketing Strategy certification from
+										Simplilearn, mastering top-notch online strategies. </p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/png/oxford_digital_marketing_short_course-1.png" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">Oxford Digital Marketing Certificate</h3>
+									<p class="projects__row-content-desc">
+										Earned the prestigious Oxford Digital Marketing Certificate, solidifying expertise in
+										cutting-edge digital strategies and tactics.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/png/Interect with customer, Social media Certificate-1.png"
+										alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">Interect with customer, Social media Certificate By
+										Google</h3>
+									<p class="projects__row-content-desc">
+										Certified in customer interaction and social media strategies by Google, ready to boost
+										online engagement.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+
+				
+			</div>
+		</div>
+	</section>
+   
+	 <!-- This section is for services page-->
+	 
 
 
 
-<!-- THis section is for Project-->
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-		Explore my top projects showcasing diverse digital solutions also dive into SEO projects highlighting enhanced online visibility and improved search engine rankings.
-          </span>
-        </h2>
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/seoresults1.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">SEO Project 1</h3>
-              <p class="projects__row-content-desc">
- 		As an SEO expert, my objective is to improve website visibility and increase organic traffic. 
-                In this case study, I will illustrate the process and tools used to achieve significant results for a client's website.
+
+	<!-- THis section is for Project-->
+	<section id="projects" class="projects sec-pad">
+		<div class="main-container">
+			<h2 class="heading heading-sec heading-sec__mb-bg">
+				<span class="heading-sec__main">Projects</span>
+				<span class="heading-sec__sub">
+					Explore my top projects showcasing diverse digital solutions also dive into SEO projects
+					highlighting enhanced online visibility and improved search engine rankings.
+				</span>
+			</h2>
+			<div class="projects__content">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/webp/seoresults1.webp" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">SEO Project 1</h3>
+									<p class="projects__row-content-desc">
+										As an SEO expert, my objective is to improve website visibility and increase
+										organic traffic.
+										In this case study, I will illustrate the process and tools used to achieve
+										significant results for a client's website.
 
 
-              </p>
-              <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/seoresults3.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">SEO Project 2</h3>
-              <p class="projects__row-content-desc">
-		As an SEO expert, my objective is to improve website visibility and increase organic traffic. In this case study, I will illustrate the process and tools used to achieve significant results for a client's website.
-              </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/seoresults6.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">SEO Project 3</h3>
-              <p class="projects__row-content-desc">
-		As an SEO expert, my objective is to improve website visibility and increase organic traffic. In this case study, I will illustrate the process and tools used to achieve significant results for a client's website.
-              </p>
-              <a
-                href="./project-2-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/fcampaign1.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Facebook Ad Campaigns</h3>
-              <p class="projects__row-content-desc">
-	 	Discover how strategic Facebook advertising campaigns drove purchases, lead generation, and improved ad recall for a health and wellness retailer.
-              </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
+									</p>
+									<a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr"
+										target="_blank">Case Study</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/webp/seoresults3.webp" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">SEO Project 2</h3>
+									<p class="projects__row-content-desc">
+										As an SEO expert, my objective is to improve website visibility and increase
+										organic traffic. In this case study, I will illustrate the process and tools
+										used to achieve significant results for a client's website.
+									</p>
+									<a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr"
+										target="_blank">Case Study</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/webp/seoresults6.webp" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">SEO Project 3</h3>
+									<p class="projects__row-content-desc">
+										As an SEO expert, my objective is to improve website visibility and increase
+										organic traffic. In this case study, I will illustrate the process and tools
+										used to achieve significant results for a client's website.
+									</p>
+									<a href="./project-2-1.html" class="btn btn--med btn--theme dynamicBgClr"
+										target="_blank">Case Study</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/webp/fcampaign1.webp" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">Facebook Ad Campaigns</h3>
+									<p class="projects__row-content-desc">
+										Discover how strategic Facebook advertising campaigns drove purchases, lead
+										generation, and improved ad recall for a health and wellness retailer.
+									</p>
+									<a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr"
+										target="_blank">Case Study</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="projects__row">
+								<div class="projects__row-img-cont">
+									<img src="./assets/webp/google-ads.webp" alt="Software Screenshot"
+										class="projects__row-img" loading="lazy" />
+								</div>
+								<div class="projects__row-content">
+									<h3 class="projects__row-content-title">Google Ads Campaign</h3>
+									<p class="projects__row-content-desc">
+										In this case study, we will explore how strategic Google advertising campaigns
+										successfully drove purchases for e-commerce stores.
+									</p>
+									<a href="./project-3-1.html" class="btn btn--med btn--theme dynamicBgClr"
+										target="_blank">Case Study</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="contact sec-pad dynamicBg">
+		<div class="main-container">
+			<h2 class="heading heading-sec heading-sec__mb-med">
+				<span class="heading-sec__main heading-sec__main--lt">Contact</span>
+				<span class="heading-sec__sub heading-sec__sub--lt">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+					tempora explicabo quae quod deserunt eius sapiente
+				</span>
+			</h2>
+			<div class="contact__form-container">
+				<form id="myForm" class="contact__form">
+					<div class="contact__form-field">
+						<label class="contact__form-label" for="name">Name</label>
+						<input required placeholder="Enter Your Name" type="text" class="contact__form-input"
+							name="name" id="name" />
+					</div>
+					<div class="contact__form-field">
+						<label class="contact__form-label" for="email">Email</label>
+						<input required placeholder="Enter Your Email" type="email" class="contact__form-input"
+							name="email" id="email" />
+					</div>
+					<div class="contact__form-field">
+						<label class="contact__form-label" for="message">Message</label>
+						<textarea required cols="30" rows="10" class="contact__form-input"
+							placeholder="Enter Your Message" name="message" id="message"></textarea>
+					</div>
+					<button type="submit" class="btn btn--theme contact__btn">
+						Submit
+					</button>
+				</form>
+			</div>
+		</div>
+	</section>
 
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/google ads.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Google Ads Campaign</h3>
-              <p class="projects__row-content-desc">
-	 	In this case study, we will explore how strategic Google advertising campaigns successfully drove purchases for e-commerce stores.
-              </p>
-              <a
-                href="./project-3-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
+	<script src="https://web3forms.com/client/script.js" async defer></script>
+	<script>
+		document.getElementById("myForm").addEventListener("submit", function (event) {
+			event.preventDefault(); // Prevent default form submission
 
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-        <div class="main-container">
-          <h2 class="heading heading-sec heading-sec__mb-med">
-            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-            <span class="heading-sec__sub heading-sec__sub--lt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente
-            </span>
-          </h2>
-          <div class="contact__form-container">
-            <form id="myForm" class="contact__form">
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="name">Name</label>
-                <input
-                  required
-                  placeholder="Enter Your Name"
-                  type="text"
-                  class="contact__form-input"
-                  name="name"
-                  id="name"
-                />
-              </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="email">Email</label>
-                <input
-                  required
-                  placeholder="Enter Your Email"
-                  type="email"
-                  class="contact__form-input"
-                  name="email"
-                  id="email"
-                />
-              </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="message">Message</label>
-                <textarea
-                  required
-                  cols="30"
-                  rows="10"
-                  class="contact__form-input"
-                  placeholder="Enter Your Message"
-                  name="message"
-                  id="message"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn--theme contact__btn">
-                Submit
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+			// Get form data
+			const formData = new FormData(event.target);
 
-    <script src="https://web3forms.com/client/script.js" async defer></script>
-    <script>
-        document.getElementById("myForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent default form submission
+			// Convert form data to JSON object
+			const jsonData = {};
+			formData.forEach(function (value, key) {
+				jsonData[key] = value;
+			});
 
-            // Get form data
-            const formData = new FormData(event.target);
+			// Send data to Web3Forms API endpoint
+			fetch('https://api.web3forms.com/submit', {
+				method: 'POST',
+				body: JSON.stringify({
+					access_key: '389f5d1e-498b-4698-b6b8-03bf88f8d9d8',
+					...jsonData
+				}),
+				headers: {
+					'Content-Type': 'application/json'
+				}
+			})
+				.then(response => response.json())
+				.then(data => {
+					console.log(data);
+					alert("Form submitted successfully!");
+					document.getElementById("myForm").reset(); // Reset the form
+				})
+				.catch(error => {
+					console.error('Error:', error);
+					alert("An error occurred while submitting the form.");
+				});
+		});
+	</script>
 
-            // Convert form data to JSON object
-            const jsonData = {};
-            formData.forEach(function(value, key) {
-                jsonData[key] = value;
-            });
+	<footer class="main-footer">
+		<div class="main-container">
+			<div class="main-footer__upper">
+				<div class="main-footer__row main-footer__row-1">
+					<h2 class="heading heading-sm main-footer__heading-sm">
+						<span>Social</span>
+					</h2>
+					<div class="main-footer__social-cont">
+						<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/muhammadahmed786/">
+							<img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+						</a>
+						<a target="_blank" rel="noreferrer" href="https://github.com/MuhammadAhmed-0">
+							<img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+						</a>
 
-            // Send data to Web3Forms API endpoint
-            fetch('https://api.web3forms.com/submit', {
-                method: 'POST',
-                body: JSON.stringify({
-                    access_key: '389f5d1e-498b-4698-b6b8-03bf88f8d9d8',
-                    ...jsonData
-                }),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                console.log(data);
-                alert("Form submitted successfully!");
-                document.getElementById("myForm").reset(); // Reset the form
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert("An error occurred while submitting the form.");
-            });
-        });
-    </script>
+						<a target="_blank" rel="noreferrer" href="https://www.instagram.com/digitalplay786/">
+							<img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png"
+								alt="icon" />
+						</a>
+					</div>
+				</div>
+				<div class="main-footer__row main-footer__row-2">
+					<h4 class="heading heading-sm text-lt">Muhammad Ahmed</h4>
+					<p class="main-footer__short-desc">
+						Certified Digital Marketing Expert | SEO Specialist | eCommerce Specialist Helping Online
+						Businesses Grow 5x faster🚀 | 6+ years of expertise | Let's Talk and Grow your Business
+						Together🤝
+					</p>
+				</div>
+			</div>
 
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/muhammadahmed786/">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/MuhammadAhmed-0">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-           
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/digitalplay786/">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Muhammad Ahmed</h4>
-            <p class="main-footer__short-desc">
-Certified Digital Marketing Expert | SEO Specialist | eCommerce Specialist Helping Online Businesses Grow 5x faster🚀 | 6+ years of expertise | Let's Talk and Grow your Business Together🤝
-            </p>
-          </div>
-        </div>
+			<!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+			<div class="main-footer__lower">
+				&copy; Copyright 2021. Made by
+				<a rel="noreferrer" target="_blank" href="https://heylink.me/ahmedmuhammad">Muhammad Ahmed</a>
+			</div>
+		</div>
+	</footer>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://heylink.me/ahmedmuhammad"
-            >Muhammad Ahmed</a
-          >
-        </div>
-      </div>
-    </footer>
+	<script src="./swiper.min.js"></script>
+	<script>
+		const swiper = [
+			new Swiper(".mySwiper", {
+				pagination: {
+					el: ".swiper-pagination",
+					dynamicBullets: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			}),
+			new Swiper(".certificatesSlider", {
+				pagination: {
+					el: ".swiper-pagination",
+					dynamicBullets: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			}),
+	]
+	</script>
+	<script src="./index.js"></script>
+</body>
 
-    <script src="./index.js"></script>
-  </body>
 </html>
