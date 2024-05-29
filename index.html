@@ -15,6 +15,63 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
 		rel="stylesheet" />
+
+		<style>
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			h1 {
+				text-align: center;
+				color: #333;
+				margin-bottom: 20px;
+				font-size: 36px;
+			}
+			.grid-container {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+				gap: 20px;
+			}
+			.grid-item {
+				background-color: #fff;
+				border: 1px solid #ddd;
+				padding: 20px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				border-radius: 8px;
+			}
+			.grid-item h2 {
+				color: #444;
+				margin-top: 0;
+				font-size: 24px;
+			}
+			.grid-item ul {
+				list-style-type: disc;
+				margin-left: 20px;
+				padding-left: 0;
+				font-size: 18px;
+			}
+			.grid-item ul li {
+				margin-bottom: 10px;
+			}
+			@media (max-width: 768px) {
+				h1 {
+					font-size: 28px;
+				}
+				.grid-container {
+					grid-template-columns: 1fr;
+				}
+				.grid-item {
+					padding: 15px;
+				}
+				.grid-item h2 {
+					font-size: 20px;
+				}
+				.grid-item ul {
+					font-size: 16px;
+				}
+			}
+		</style>
 </head>
 
 <body>
@@ -82,16 +139,16 @@
 	</header>
 	<section class="home-hero">
 		<div class="home-hero__content">
-			<h1 class="heading-primary">Struggling online? Elevate your Brand with Proven Marketing Strategies</h1>
+			<h1 class="heading-primary" style="color: white;">Struggling online? Scale your brand with tried-and-true marketing strategies.</h1>
+
 			<div class="home-hero__info">
 				<p class="text-primary">
-					I'm Muhammad Ahmed, a Digital Marketing Specialist with over 6 years of experience. Dive into my
-					portfolio to see how I've helped businesses like yours thrive online.
+					Discover Strategies that can instantly help you to increase your Conversion & Increase your sales by Minimum 20%.
 
 				</p>
 			</div>
 			<div class="home-hero__cta">
-				<a href="#projects" class="btn btn--bg">Projects</a>
+				<a href="#contact" class="btn btn--bg">	CLAIM YOUR FREE CONSULTATION</a>
 			</div>
 		</div>
 		<div class="home-hero__socials">
@@ -421,6 +478,116 @@
 				</div>
 			</div>
 		</div>
+    
+		<!--For SEO -->
+        <div class="container">
+			<h1>My SEO Strategy</h1>
+			<span class="heading-sec__sub">
+				Boost your search engine rankings and attract more visitors with my complete SEO strategy. I've designed a plan that covers every aspect of your online optimization. Using this Step by Step process, I helped a client's website gain hundreds of thousands of visitors and significantly increase their online visibility and revenue.
+			</span><br><br>
+			<div class="grid-container">
+				<div class="grid-item">
+					<h2>Keyword Research</h2>
+					<ul>
+						<li>Identifying Seed Keywords</li>
+						<li>Competitor Analysis</li>
+						<li>SERP Analysis</li>
+						<li>Analyzing Search Intent</li>
+						<li>Long-Tail Keyword Analysis</li>
+						<li>Keyword Difficulty Analysis</li>
+						<li>Search Volume Analysis</li>
+						<li>Trend Analysis</li>
+					</ul>
+				</div>
+				<div class="grid-item">
+					<h2>Technical SEO</h2>
+					<ul>
+						<li>Website Performance</li>
+						<li>Mobile Friendliness</li>
+						<li>Structured Data</li>
+						<li>XML Sitemap</li>
+						<li>URL Structure</li>
+						<li>Canonical Tags</li>
+						<li>Redirects</li>
+						<li>Website Architecture</li>
+						<li>Navigation</li>
+					</ul>
+				</div>
+				<div class="grid-item">
+					<h2>On-Page SEO</h2>
+					<ul>
+						<li>Title Tags</li>
+						<li>Meta Descriptions</li>
+						<li>Header Tags</li>
+						<li>Quality Content</li>
+						<li>Keyword Optimization</li>
+						<li>Image Optimization</li>
+						<li>Internal Linking</li>
+					</ul>
+				</div>
+				<div class="grid-item">
+					<h2>Off-Page SEO</h2>
+					<ul>
+						<li>Backlinks</li>
+						<li>Social Signals</li>
+						<li>Brand Mentions</li>
+						<li>Guest Blogging</li>
+						<li>Local Citations</li>
+						<li>Customer Reviews</li>
+						<li>Content Marketing</li>
+					</ul>
+				</div>
+				<div class="grid-item">
+					<h2>Content Creation</h2>
+					<ul>
+						<li>Research</li>
+						<li>Planning</li>
+						<li>Proofreading</li>
+						<li>Optimizing</li>
+						<li>Publishing</li>
+						<li>Promoting</li>
+						<li>Monitoring</li>
+					</ul>
+				</div>
+				<div class="grid-item">
+					<h2>Reporting</h2>
+					<ul>
+						<li>Traffic Analysis</li>
+						<li>User Engagement Metrics</li>
+						<li>Conversion Tracking</li>
+						<li>Backlink Analysis</li>
+						<li>Page Speed Insights</li>
+						<li>Technical SEO Health</li>
+						<li>Content Performance</li>
+						<li>Goals and Objectives</li>
+						<li>Actionable Insights + Recommendations</li>
+						<li>Competitor Performance Analysis</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</section>
 	<section id="contact" class="contact sec-pad dynamicBg">
 		<div class="main-container">
@@ -559,6 +726,42 @@
 	]
 	</script>
 	<script src="./index.js"></script>
+
+
+	
+	<script>
+		let currentIndex = 0;
+	
+		const carouselInner = document.querySelector('.carousel-inner');
+		const carouselItems = document.querySelectorAll('.carousel-item');
+		const totalItems = carouselItems.length;
+	
+		document.getElementById('prevBtn').addEventListener('click', () => {
+			if (currentIndex > 0) {
+				currentIndex--;
+			} else {
+				currentIndex = totalItems - 1;
+			}
+			updateCarousel();
+		});
+	
+		document.getElementById('nextBtn').addEventListener('click', () => {
+			if (currentIndex < totalItems - 1) {
+				currentIndex++;
+			} else {
+				currentIndex = 0;
+			}
+			updateCarousel();
+		});
+	
+		function updateCarousel() {
+			const width = carouselItems[0].clientWidth;
+			const newTransform = -width * currentIndex;
+			carouselInner.style.transform = `translateX(${newTransform}px)`;
+		}
+	
+		window.addEventListener('resize', updateCarousel);
+	</script>
 </body>
 
 </html>
