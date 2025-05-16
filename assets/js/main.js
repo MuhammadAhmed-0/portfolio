@@ -94,11 +94,6 @@
         startDelay: 300
       });
     }
-        backSpeed: 50,
-        backDelay: 2000,
-        startDelay: 300
-      });
-    }
 
     // Skills animation
     let skillsAnimation = document.querySelectorAll('.skills-animation');
